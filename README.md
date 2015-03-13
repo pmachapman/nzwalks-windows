@@ -1,4 +1,4 @@
-# New Zealand Walks for Wind8.1 and Windows Phone 8.1ows 
+# New Zealand Walks for Windows 8.1 and Windows Phone 8.1
 View all of the Department of Conservation walking tracks throughout New Zealand on your Android device (requires an Internet connection).
 
 ## Download
