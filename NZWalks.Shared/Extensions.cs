@@ -20,25 +20,6 @@ namespace Conglomo.NZWalks
 #if WINDOWS_APP
 
         /// <summary>
-        /// Converts to a location collection.
-        /// </summary>
-        /// <param name="pointList">The list of points.</param>
-        /// <returns>The location collection.</returns>
-        public static LocationCollection ToLocationCollection(this IList<BasicGeoposition> pointList)
-        {
-            LocationCollection locs = new LocationCollection();
-            if (pointList != null)
-            {
-                foreach (BasicGeoposition p in pointList)
-                {
-                    locs.Add(p.ToLocation());
-                }
-            }
-
-            return locs;
-        }
-
-        /// <summary>
         /// Converts to a geo point.
         /// </summary>
         /// <param name="location">The location.</param>
@@ -70,16 +51,6 @@ namespace Conglomo.NZWalks
             {
                 return new Location();
             }
-        }
-
-        /// <summary>
-        /// Converts to a location.
-        /// </summary>
-        /// <param name="location">The geo position.</param>
-        /// <returns>The location.</returns>
-        public static Location ToLocation(this BasicGeoposition location)
-        {
-            return new Location(location.Latitude, location.Longitude);
         }
 
 #elif WINDOWS_PHONE_APP
