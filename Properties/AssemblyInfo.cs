@@ -34,6 +34,6 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("1.2.0.0")]
 [assembly: AssemblyFileVersion("1.2.0.0")]
 [assembly: ComVisible(false)]
-[assembly: NeutralResourcesLanguage("en-NZ")]
+[assembly: NeutralResourcesLanguage("en")]
 [assembly: CLSCompliant(false)]
 
